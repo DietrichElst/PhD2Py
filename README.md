@@ -14,5 +14,6 @@ It also gives the opportunity to structure the definition of both the problem an
 
 The previous MATLAB scripts are integrated into 2 classes: a problem structure and an accompanying problem sovler.
 A problem structure contains all relevant physical constants, all properties that describe the system and the relevant parameters that define the state of the system.
-Parameters can be lists of tuples, such that the solver can solve for all or a selected subset of points in parameter space. 
+Parameters can be lists of tuples, such that the solver can solve for all or a selected subset of points in parameter space.
+The interaction potential of the system can be supplied externally, to improve performance.
 Finally, the solver also contains some methods to plot and save all of the data incsv or JSON format.
